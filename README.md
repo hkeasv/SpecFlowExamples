@@ -1,5 +1,5 @@
 # SpecFlowExamples
-A few examples of how to write features in Gherkin
+A few examples of how to write features in Gherkin and mathcing step definitions.
 
 AddExamples:
 Demonstrates Schenario Outline and Examples, which is Cucumber's way of doing data-driven testing.
