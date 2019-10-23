@@ -20,4 +20,16 @@
     <ProjectReference Include="..\CalculatorLib\CalculatorLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="DataTableWithMultipleObjects.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DataTableWithMultipleObjects.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DataTableWithMultipleObjects.feature.cs">
+      <DependentUpon>DataTableWithMultipleObjects.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
