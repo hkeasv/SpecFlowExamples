@@ -2,10 +2,10 @@
 A few examples of how to write features in Gherkin and mathcing step definitions.
 
 AddExamples:
-Demonstrates Schenario Outline and Examples, which is Cucumber's way of doing data-driven testing.
+Demonstrates Scenario Outline and Examples, which is Cucumber's way of doing data-driven testing.
 
 CalculateAgeExamples:
-Another Schenario Outline which demonstrates how to input string data in Examples, and how to handle a date as input.
+Another Scenario Outline which demonstrates how to input string data in Examples, and how to handle a date as input.
 
 DataTable:
 Demonstrates how to input an instance of a custom class using a DataTable and the CreateInstance<T> method.
