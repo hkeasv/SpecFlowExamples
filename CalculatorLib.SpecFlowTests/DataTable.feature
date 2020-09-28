@@ -8,4 +8,4 @@ Scenario: Calculate age
 	| Name | BirthDate  |
 	| Ann  | 1998-06-30 |
 	When I press Calculate age
-	Then The result should be 21 years
+	Then The result should be 22 years

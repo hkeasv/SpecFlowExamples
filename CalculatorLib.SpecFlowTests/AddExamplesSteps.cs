@@ -7,6 +7,7 @@ namespace CalculatorLib.SpecFlowTests
     public class AddExamplesSteps
     {
         int firstNumber, secondNumber, sum;
+
         Calculator calculator = new Calculator();
 
         [Given(@"I have entered (.*) into the calculator")]

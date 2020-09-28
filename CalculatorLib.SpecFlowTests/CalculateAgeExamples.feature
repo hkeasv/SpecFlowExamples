@@ -12,6 +12,6 @@ Scenario Outline: Calculate age
 
 	Examples:
 	| name  | birthdate    | age |
-	| 'Ann' | '1998-06-30' | 21  |
-	| 'Bob' | '2002-06-30' | 17  |
-	| 'Joe' | '1992-06-30' | 27  |
+	| 'Ann' | '1998-06-30' | 22  |
+	| 'Bob' | '2002-06-30' | 18  |
+	| 'Joe' | '1992-06-30' | 28  |

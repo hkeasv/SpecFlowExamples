@@ -9,4 +9,4 @@ Scenario: Calculate age of first person
     | Ann  | 1998-06-30 |
     | Joe  | 2001-06-30 |
     When I press Calculate age of the first person
-    Then The result should be 21 years for the first person  
+    Then The result should be 22 years for the first person  
