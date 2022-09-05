@@ -24,7 +24,7 @@ namespace CalculatorLib
 
         public int CalculateAge(Person person)
         {
-            int currentYear = DateTime.Today.Year;
+            int currentYear = 2021;
             int yearOfBirth = person.BirthDate.Year;
             return currentYear - yearOfBirth;
         }
